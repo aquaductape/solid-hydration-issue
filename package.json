@@ -1,0 +1,25 @@
+{
+  "name": "solid-hydration-issue",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "server": "npm run build && serve dist"
+  },
+  "type": "module",
+  "devDependencies": {
+    "solid-app-router": "^0.1.14",
+    "solid-js": "^1.2.6",
+    "solid-meta": "^0.27.2",
+    "solid-start": "next",
+    "solid-start-node": "next",
+    "typescript": "^4.4.3",
+    "vite": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "solid-start-static": "^0.1.0-alpha.45"
+  }
+}
